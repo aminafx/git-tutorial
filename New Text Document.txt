@@ -1,0 +1,61 @@
+git --help
+
+git config --global user.name "amin jalili"
+git config --global user.email"amin.jalili137819@gmail.com"
+
+git config list
+
+pwd
+
+ls
+
+mkdir ->(make directory)
+
+mkdir git->(directory name)
+
+rmdir ->(remove directory)
+
+rmdir git
+
+cd ->(go to directory)
+
+cd git->(go to git)
+
+git init->(make .git file)
+
+
+git status->(commits situation)
+
+git add index.html->(add index.html to stage)
+
+git add .->(add all files to stage)
+
+
+git commit -m "new files added to my directory"->(commit complete)
+
+git log->(see commit)
+
+git diff->(showing changes)
+
+cat index.html->(showing content of index.html)
+
+git commit -a -m "some change entered to index.html"->(add and commit) ==> (git add .) and (git commit -m)
+
+git restore <file>->(to discard changes in working directory)
+
+
+git restore --staged <file>->( to unstage)
+
+
+git commit --amend -m "js and css and index changed"->(making change on the last commit subject)
+
+a25e44bf286f4dc499f88fbd29141d11ecaa17fd->(cimmit hashID)
+
+git show a25e44bf286f4dc499f88fbd29141d11ecaa17fd->(show changes in this commit)
+
+git branch->(show branchs)
+
+git branch login-page->(making new branch)
+
+git checkout login-page->(go to this branch)
+
